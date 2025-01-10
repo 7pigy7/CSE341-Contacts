@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/7pigy7/CSE341-Contacts/issues"
   },
-  "homepage": "https://github.com/7pigy7/CSE341-Contacts#readme"
+  "homepage": "https://github.com/7pigy7/CSE341-Contacts#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
