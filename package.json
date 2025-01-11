@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/7pigy7/CSE341-Contacts#readme",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongodb": "^6.12.0"
   }
