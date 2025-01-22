@@ -1,5 +1,3 @@
-const { describe } = require('node:test');
-
 const swaggerAutogen = require('swagger-autogen')();
 const doc = {
     info: {
@@ -11,7 +9,7 @@ const doc = {
 };
 
 const outputFile = './swagger.json';
-const endpointFiles = ['./CSE341-Contacts/routes/index.js'];
+const endpointFiles = ['./routes/index.js'];
 
 //This will generate swagger.json
 swaggerAutogen(outputFile, endpointFiles, doc);
