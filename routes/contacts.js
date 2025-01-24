@@ -3,11 +3,11 @@ const router = express.Router();
 
 const contactController = require('../controllers/contacts');
 
-router.get('/all', contactController.getAll);
+router.get('/', contactController.getAll);
 
 router.get('/:id', contactController.getSingle);
 
-router.post('/create', contactController.createContact)
+router.post('/', contactController.createContact)
 
 router.put('/:id', contactController.updateContact)
 
